@@ -8,6 +8,9 @@
 <!-- ## Stats  -->
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SleepinWei&theme=vue&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
+<!-- Most used language -->
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SleepinWei)](https://github.com/SleepinWei/github-readme-stats)
+
 <!--START_SECTION:waka-->
 
 <!--END_SECTION:waka-->
