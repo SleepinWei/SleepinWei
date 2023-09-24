@@ -1,9 +1,9 @@
 <!-- ### Hi there 👋 -->
 <h1 align="center">Hi there 👋</h1>
 
-🏫 I'm an undergraduate student in Tongji University.    
+🏫 I'm an undergraduate student at Tongji University.    
 💻 I major in CS.   
-📃 My interest is on Computer Graphics
+📃 My interest is in Computer Graphics
 
 <!-- ## Stats  -->
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=SleepinWei&theme=vue&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
