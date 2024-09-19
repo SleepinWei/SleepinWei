@@ -2,7 +2,9 @@
 <h1 align="center">Hi 👋</h1>
 
 :mortar_board: master's student @tongji(2024-now)    
+
 💻 major in computer science 
+
 📃 graphics, 3d generation & editing, radiance fields. 
 
 
