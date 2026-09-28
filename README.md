@@ -7,10 +7,10 @@
   Exploring agent systems, computer graphics, and AI applications.
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <a href="#projects">Projects</a> &nbsp;·&nbsp;
   <a href="https://sleepinwei.github.io/ValleyTown/">Visit ValleyTown ↗</a>
-</p>
+</p> -->
 
 ## Projects
 
