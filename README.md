@@ -39,12 +39,13 @@ An evidence-grounded browser agent that combines **LLM planning with Jev action 
     </td>
     <td width="50%" valign="top">
       <h3>Scene Renderer</h3>
-      <a href="https://github.com/SleepinWei/Scene-Renderer"><img src="https://raw.githubusercontent.com/SleepinWei/Scene-Renderer/main/img/sky.png" width="100%" alt="Scene Renderer: physically based sky and a real-time ocean rendered with OpenGL" /></a>
-      <p><strong>From atmospheric skies to ocean surfaces.</strong></p>
-      <p>A modern OpenGL renderer for natural and indoor scenes: physically based skies, volumetric clouds, PBR materials, soft shadows, and GPU-driven terrain LOD.</p>
-      <p>Includes a separate CPU path tracer with BVH acceleration and importance sampling.</p>
-      <p><code>C++</code> <code>OpenGL</code> <code>GLSL</code> <code>Path Tracing</code></p>
-      <p><a href="https://github.com/SleepinWei/Scene-Renderer"><strong>Repository &amp; gallery →</strong></a><br /><sub>Built with a team for Tongji University's Computer Graphics course.</sub></p>
+      <a href="https://github.com/SleepinWei/Scene-Renderer"><img src="https://raw.githubusercontent.com/SleepinWei/Scene-Renderer/main/img/metal/mountain-lake.png" width="100%" alt="Scene Renderer: terrain, vegetation, and an FFT lake rendered with native Metal" /></a>
+      <p><strong>Real-time worlds and offline light transport.</strong></p>
+      <p>A C++17 renderer with native Metal and Vulkan backends, a shared RHI, and a common GLSL shader pipeline. Immutable scene snapshots connect the logic and render threads.</p>
+      <p>PBR, CSM/PCSS soft shadows, atmospheric scattering, 3D voxel clouds, FFT oceans, and virtual-textured terrain with vegetation.</p>
+      <p>CPU/Metal/Vulkan path tracing adds textured materials, refraction, and medium scattering; CPU BDPT renders glass caustics, with optional OIDN denoising.</p>
+      <p><code>C++17</code> <code>Metal</code> <code>Vulkan</code> <code>GLSL</code> <code>Path Tracing</code></p>
+      <p><a href="https://github.com/SleepinWei/Scene-Renderer"><strong>Repository →</strong></a> · <a href="https://github.com/SleepinWei/Scene-Renderer/blob/main/docs/rendering-gallery.md">Gallery</a> · <a href="https://github.com/SleepinWei/Scene-Renderer/blob/main/docs/system-design.md">System design</a><br /><sub>Started as a team project for Tongji University's Computer Graphics course; expanded through continued iteration.</sub></p>
     </td>
   </tr>
 </table>
@@ -75,7 +76,7 @@ An evidence-grounded browser agent that combines **LLM planning with Jev action 
 | Area | Tools I use across these projects |
 | --- | --- |
 | **Agents & AI** | Python · Playwright · BrowserGym · MCP · model APIs |
-| **Graphics** | C++ · OpenGL · GLSL · Three.js |
+| **Graphics** | C++17 · Metal · Vulkan · OpenGL · GLSL · Three.js |
 | **Web & Mobile** | TypeScript · React · Next.js · Expo · React Native |
 | **Data & Services** | FastAPI · PostgreSQL · Supabase |
 
