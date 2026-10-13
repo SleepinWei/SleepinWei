@@ -39,11 +39,12 @@ An evidence-grounded browser agent that combines **LLM planning with Jev action 
     </td>
     <td width="50%" valign="top">
       <h3>Scene Renderer</h3>
-      <a href="https://github.com/SleepinWei/Scene-Renderer"><img src="https://raw.githubusercontent.com/SleepinWei/Scene-Renderer/main/img/metal/mountain-lake.png" width="100%" alt="Scene Renderer: terrain, vegetation, and an FFT lake rendered with native Metal" /></a>
+      <a href="https://github.com/SleepinWei/Scene-Renderer"><img src="assets/scene-renderer-cover-v3.jpg" width="100%" alt="Scene Renderer cover montage: realtime underwater sun shafts and procedural forest, path-traced fur, and photon-mapped pool caustics" /></a>
+      <p><sub>Cover montage adapted from project captures; path-traced panels use OIDN. <a href="assets/scene-renderer-cover-v3.sources.md">Cover sources</a> · <a href="https://github.com/SleepinWei/Scene-Renderer/blob/main/docs/rendering-gallery.md">Original renders</a></sub></p>
       <p><strong>Real-time worlds and offline light transport.</strong></p>
       <p>A C++17 renderer with native Metal and Vulkan backends, a shared RHI, and a common GLSL shader pipeline. Immutable scene snapshots connect the logic and render threads.</p>
-      <p>PBR, CSM/PCSS soft shadows, atmospheric scattering, 3D voxel clouds, FFT oceans, and virtual-textured terrain with vegetation.</p>
-      <p>CPU/Metal/Vulkan path tracing adds textured materials, refraction, and medium scattering; CPU BDPT renders glass caustics, with optional OIDN denoising.</p>
+      <p>Real-time PBR, GTAO, soft shadows, atmospheric scattering, voxel clouds, and FFT water; underwater views add sun shafts, refraction, and seabed caustics. Procedural forests and virtual-textured terrain extend the natural scenes.</p>
+      <p>CPU/Metal/Vulkan path tracing shares geometry BLAS/TLAS and supports textured materials, fur, cloth, refraction, and medium scattering. CPU BDPT and fixed-radius photon mapping render caustics; OIDN denoising is optional.</p>
       <p><code>C++17</code> <code>Metal</code> <code>Vulkan</code> <code>GLSL</code> <code>Path Tracing</code></p>
       <p><a href="https://github.com/SleepinWei/Scene-Renderer"><strong>Repository →</strong></a> · <a href="https://github.com/SleepinWei/Scene-Renderer/blob/main/docs/rendering-gallery.md">Gallery</a> · <a href="https://github.com/SleepinWei/Scene-Renderer/blob/main/docs/system-design.md">System design</a><br /><sub>Started as a team project for Tongji University's Computer Graphics course; expanded through continued iteration.</sub></p>
     </td>
@@ -86,3 +87,4 @@ An evidence-grounded browser agent that combines **LLM planning with Jev action 
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
+
