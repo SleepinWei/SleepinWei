@@ -77,6 +77,10 @@ An evidence-grounded browser agent that combines **LLM planning with Jev action 
 
 **From trade documents to a reviewable ledger.** A commodity trade ledger application with invoice uploads, OCR, human review and confirmation, and ledger exports. Multi-tenant roles, private attachments, and durable background jobs support the workflow from document intake to structured records.
 
+<a href="https://sleepinwei.github.io/ledgerask/"><img src="assets/ledgerask-preview.webp" width="100%" alt="LedgerAsk running in a demo environment: invoice and contract summaries, a document review workflow, matching, and ledger exports" /></a>
+
+<sub>Application preview from an isolated demo environment using synthetic trade documents.</sub>
+
 `Next.js` `TypeScript` `FastAPI` `PostgreSQL` `OCR`
 
 **[Visit LedgerAsk ↗](https://1000flow.com)**
